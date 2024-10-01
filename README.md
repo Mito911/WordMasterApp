@@ -1,5 +1,8 @@
 # WordMasterApp
 
+![image](https://github.com/user-attachments/assets/dc78f46c-9d25-4a84-878e-093b16d1a99e)
+
+
 WordMasterApp is a web application for learning vocabulary. It allows users to create, view, and manage words across different categories. The application supports generating tests based on saved words, enabling effective learning of new vocabulary.
 
 ## Features
