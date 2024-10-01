@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordMaster App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>WordMaster App</h1>
+
+    <!-- Sekcja do pobierania wszystkich słów -->
+    <h2>All Words</h2>
+    <button id="fetchAllWords">Fetch All Words</button>
+    <ul id="wordsList"></ul>
+
+    <!-- Sekcja do generowania testów -->
+    <h2>Generate Test</h2>
+    <button id="randomTest">Generate Random Words Test</button>
+    <button id="testLastDay">Words from Last Day</button>
+    <button id="testLastWeek">Words from Last Week</button>
+    <button id="testLastMonth">Words from Last Month</button>
+    <ul id="testResult"></ul>
+
+    <!-- Sekcja do dodawania nowej kategorii -->
+    <h2>Add a New Category</h2>
+    <input type="text" id="newCategoryName" placeholder="Category Name">
+    <button id="addCategory">Add Category</button>
+
+    <!-- Sekcja wyświetlania kategorii -->
+    <h2>All Categories</h2>
+    <ul id="categoriesList"></ul>
+
+    <!-- Sekcja do dodawania nowego słowa -->
+    <h2>Add a New Word</h2>
+    <input type="text" id="originalWord" placeholder="Original Word">
+    <input type="text" id="translatedWord" placeholder="Translated Word">
+    <select id="categorySelect">
+        <option value="">Select Category</option>
+    </select>
+    <button id="addWord">Add Word</button>
+
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
